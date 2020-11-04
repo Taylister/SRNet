@@ -97,8 +97,8 @@ def main():
 
         #Uncomment the following if you need to save the rest of the predictions
 
-        #o_sk.save(os.path.join(args.save_dir, name + 'o_sk.png'))
-        #o_t.save(os.path.join(savedir, name + 'o_t.png'))
+        o_sk.save(os.path.join(args.save_dir, name + 'o_sk.png'))
+        o_t.save(os.path.join(args.save_dir, name + 'o_t.png'))
         #o_b.save(os.path.join(savedir, name + 'o_b.png'))
 
             
